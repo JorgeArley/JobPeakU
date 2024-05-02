@@ -1,0 +1,48 @@
+const trabajos = [
+  {
+    tittleVacante: 'Desarrollador Front End',
+    imageJob: 'invoway.png',
+    skill: ['HTML'],
+    empresa: 'Invoway',
+    lugar: 'Brasil',
+    salario: '$5.000.000',
+    vacantes: '4',
+    publicacion: '3',
+    benefits: ['certifications', 'trainings'],
+  },
+  {
+    tittleVacante: 'Ingeniero de Software',
+    imageJob: 'offiemedicas.png',
+    skill: ['JavaScript', 'HTML', 'CSS'],
+    empresa: 'Tech Solutions',
+    lugar: 'Estados Unidos',
+    salario: '$7.000.000',
+    vacantes: '3',
+    publicacion: '5',
+     benefits: ['trainings', 'team', 'schedule'],
+  },
+  {
+    tittleVacante: 'Diseñador UX/UI',
+    imageJob: 'PhononX.jpg',
+    skill: ['Figma'],
+    empresa: 'Creative Minds',
+    lugar: 'Canadá',
+    salario: '$6.000.000',
+    vacantes: '2',
+    publicacion: '2',
+     benefits: ['remote', 'insurance', 'stock'],
+  },
+  {
+    tittleVacante: 'Profesor de emprendimiento',
+    imageJob: 'logo-genuine.jpg',
+    skill: ['Project Managment', 'Software Development'],
+    empresa: 'Daisy Inc',
+    lugar: 'Dabeiba',
+    salario: 'Desconocido',
+    vacantes: '1',
+    publicacion: '1',
+     benefits: [ 'trainings'],
+  },
+];
+
+export default trabajos;
