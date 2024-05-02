@@ -1,10 +1,13 @@
 import './App.css';
 import Jobs from './components/cardJob';
+import Footer from './components/footer';
+import Header from './components/header';
 import empleos from './shared/jobs'
 
 function App() {
   return (
     <div className="App">
+      <Header/>
       <div className='container'>
         {empleos.map((trabajo, index) => (
           <Jobs
@@ -21,6 +24,7 @@ function App() {
           />
         ))}
       </div>
+      <Footer/>
     </div>
   );
 }

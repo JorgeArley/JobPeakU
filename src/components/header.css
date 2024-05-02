@@ -1,0 +1,9 @@
+.header {
+  background-color: #3a8ced;
+}
+
+.function:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
